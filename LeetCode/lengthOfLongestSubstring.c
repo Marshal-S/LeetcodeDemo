@@ -6,8 +6,7 @@
 //
 
 #include "lengthOfLongestSubstring.h"
-
-#include <stdlib.h>
+#include <CoreFoundation/CoreFoundation.h>
 
 //双指针的方式，以一个首尾队列的方式保存最长字符串
 //当出现重复时，将队首指针后移到上一个重复的字符后面，避免无效操作
@@ -55,7 +54,7 @@ int lengthOfLongestSubstring(char *s) {
         while (f[s[j]] == true) {
             //有重复，重置前面的字符串出现标记为false
             //将i处标记为false，即j上一次出现的位置
-            f[s[i++]] = false;
+            f[s[i++]] = true;
         }
         //将新出现的不重复字母标记为true
         f[s[j]] = true;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		668F076F28334640007FD9D6 /* inorderSuccessor.c in Sources */ = {isa = PBXBuildFile; fileRef = 668F076E28334640007FD9D6 /* inorderSuccessor.c */; };
 		66CB9FD6282C9B9A0094613A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CB9FD5282C9B9A0094613A /* main.m */; };
 		66CB9FDE282D09790094613A /* lengthOfLongestSubstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 66CB9FDD282D09790094613A /* lengthOfLongestSubstring.c */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		668F076D28334640007FD9D6 /* inorderSuccessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inorderSuccessor.h; sourceTree = "<group>"; };
+		668F076E28334640007FD9D6 /* inorderSuccessor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inorderSuccessor.c; sourceTree = "<group>"; };
 		66CB9FD2282C9B9A0094613A /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CB9FD5282C9B9A0094613A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66CB9FDC282D09790094613A /* lengthOfLongestSubstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lengthOfLongestSubstring.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				66CB9FD5282C9B9A0094613A /* main.m */,
 				66CB9FDC282D09790094613A /* lengthOfLongestSubstring.h */,
 				66CB9FDD282D09790094613A /* lengthOfLongestSubstring.c */,
+				668F076D28334640007FD9D6 /* inorderSuccessor.h */,
+				668F076E28334640007FD9D6 /* inorderSuccessor.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CB9FD6282C9B9A0094613A /* main.m in Sources */,
+				668F076F28334640007FD9D6 /* inorderSuccessor.c in Sources */,
 				66CB9FDE282D09790094613A /* lengthOfLongestSubstring.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,7 +250,9 @@
 		66CB9FDA282C9B9A0094613A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -252,7 +260,9 @@
 		66CB9FDB282C9B9A0094613A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
