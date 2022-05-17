@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		665584D1283394E90060CED6 /* isAlienSorted.c in Sources */ = {isa = PBXBuildFile; fileRef = 665584D0283394E90060CED6 /* isAlienSorted.c */; };
 		668F076F28334640007FD9D6 /* inorderSuccessor.c in Sources */ = {isa = PBXBuildFile; fileRef = 668F076E28334640007FD9D6 /* inorderSuccessor.c */; };
 		66CB9FD6282C9B9A0094613A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CB9FD5282C9B9A0094613A /* main.m */; };
 		66CB9FDE282D09790094613A /* lengthOfLongestSubstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 66CB9FDD282D09790094613A /* lengthOfLongestSubstring.c */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		665584CF283394E90060CED6 /* isAlienSorted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isAlienSorted.h; sourceTree = "<group>"; };
+		665584D0283394E90060CED6 /* isAlienSorted.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = isAlienSorted.c; sourceTree = "<group>"; };
 		668F076D28334640007FD9D6 /* inorderSuccessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inorderSuccessor.h; sourceTree = "<group>"; };
 		668F076E28334640007FD9D6 /* inorderSuccessor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inorderSuccessor.c; sourceTree = "<group>"; };
 		66CB9FD2282C9B9A0094613A /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +71,8 @@
 				66CB9FDD282D09790094613A /* lengthOfLongestSubstring.c */,
 				668F076D28334640007FD9D6 /* inorderSuccessor.h */,
 				668F076E28334640007FD9D6 /* inorderSuccessor.c */,
+				665584CF283394E90060CED6 /* isAlienSorted.h */,
+				665584D0283394E90060CED6 /* isAlienSorted.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			files = (
 				66CB9FD6282C9B9A0094613A /* main.m in Sources */,
 				668F076F28334640007FD9D6 /* inorderSuccessor.c in Sources */,
+				665584D1283394E90060CED6 /* isAlienSorted.c in Sources */,
 				66CB9FDE282D09790094613A /* lengthOfLongestSubstring.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
